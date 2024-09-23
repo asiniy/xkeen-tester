@@ -4,7 +4,7 @@
   "description": "Check validity of XKeen connection. If connection doesn't work, it kills Keenetic + sends a tg bot notification",
   "main": "index.js",
   "scripts": {
-    "run": "tsc compile",
+    "run:dev": "npx tsc && node --trace-deprecation dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/asiniy/xkeen-tester/issues"
   },
-  "homepage": "https://github.com/asiniy/xkeen-tester#readme"
+  "homepage": "https://github.com/asiniy/xkeen-tester#readme",
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "zod": "^3.23.8"
+  }
 }
