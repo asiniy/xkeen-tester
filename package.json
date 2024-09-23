@@ -1,0 +1,25 @@
+{
+  "name": "xkeen-tester",
+  "version": "1.0.0",
+  "description": "Check validity of XKeen connection. If connection doesn't work, it kills Keenetic + sends a tg bot notification",
+  "main": "index.js",
+  "scripts": {
+    "run": "tsc compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asiniy/xkeen-tester.git"
+  },
+  "keywords": [
+    "xkeen",
+    "keenetic",
+    "typescript"
+  ],
+  "author": "Alex Antonov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asiniy/xkeen-tester/issues"
+  },
+  "homepage": "https://github.com/asiniy/xkeen-tester#readme"
+}
